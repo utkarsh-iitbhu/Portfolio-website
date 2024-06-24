@@ -10,7 +10,7 @@ export default function ProjectPage() {
     <div className="flex flex-col space-y-5 w-full">
       <h1 className={title()}>My Works</h1>
       <h3 className={subtitle()}>
-        A showcase of my work, that highlights my skillset and curiosity.
+        A showcase of my work, that highlights my skillset, curiosity and journey.
       </h3>
       <Spacer y={8} />
       {/* <div className="flex w-full flex-col">

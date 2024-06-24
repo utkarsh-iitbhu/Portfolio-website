@@ -1,34 +1,66 @@
 export const projects = [
-  
   {
     id: 1,
+    title: 'Medical-IntelliTalk AI-Chatbot',
+    description:
+      'Advanced AI chatbot integrating Flask, Pinecone, RAG, Langchain, OpenAI for dynamic, context-aware interactions.',
+    img: '/images/chatbot.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Medical-chatbot-RAG-Langchain-Agents',
+    label: 'medical.chatbot',
+  },
+  {
+    id: 2,
     title: 'Memor.AI Ed-Tech Platform',
     description:
-      'Built an Ed-Tech platform for active retention learning using Flutter, Django, and Transformers at Inter-IIT ',
+      'Built an Ed-Tech platform for active retention learning using Flutter, Django, and Transformers at Inter-IIT.',
     img: '/images/memor.jpg',
     link: 'https://drive.google.com/file/d/17G7padP6Jldk43wFhv6wZ30i0GnjMc0f/view?usp=sharing',
     label: 'memor.ai',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Synthetic Serendipity Anime VAE-GAN',
     description:
-      'Leveraged Variational Autoencoder and DCGANS to generate unique anime-style character faces with Pytorch. ',
+      'Leveraged Variational Autoencoder and DCGANS to generate unique anime-style character faces with Pytorch.',
     img: '/images/vae-gan.jpg',
     link: 'https://github.com/utkarsh-iitbhu/Synthetic-Serendipity-EnigmaticAnimeVAE-GAN',
     label: 'synthetic.serendipity',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Blogify 360',
     description:
-      'Built a full-stack blog application with React Router, Redux, secure authentication, and file upload capabilities',
+      'Built a full-stack blog application with React Router, Redux, secure authentication, and file upload capabilities.',
     img: '/images/blog.jpg',
     link: 'https://github.com/utkarsh-iitbhu/Blogify360-with-MERN',
     label: 'blogify.360',
   },
   {
-    id: 4,
+    id: 5,
+    title: "Monocular Depth Estimation",
+    description: "Utilizes vision transformers to estimate depth from single monocular images.",
+    img: '/images/depth.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Depth-Estimation-in-monocular-image',
+    label: 'depth.estimation',
+  },
+  {
+    id: 6,
+    title: "MCQ Generator",
+    description: "Generates multiple-choice questions using Langchain and OpenAI for educational purposes.",
+    img: '/images/mcq.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/MCQ-Generator-Langchain-OpenAI',
+    label: 'mcq.generator',
+  },
+  {
+    id: 7,
+    title: "Sentiment Analysis Model",
+    description: "Classifies text into positive, neutral, and negative sentiments with probability predictions.",
+    img: '/images/senti.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Sentimental-Analysis',
+    label: 'sentiment.analysis',
+  },
+  {
+    id: 8,
     title: 'Auto Code Generator using GPT-3 Neo',
     description:
       'Demonstrated the working of Auto Code Generator using GPT-3 Neo, which generates code from snippets or commands. Built with the transformer model having 1.3 billion parameters.',
@@ -37,7 +69,7 @@ export const projects = [
     label: 'auto.code.generator',
   },
   {
-    id: 5,
+    id: 9,
     title: 'Multiverse of Languages — Intro to Python',
     description:
       'Delivered a 2.5-hour live Python tutorial covering 30 key topics, hosted by Google Developer Students Club (GDSC). The video has over 3000+ views on YouTube.',
@@ -46,7 +78,7 @@ export const projects = [
     label: 'multiverse.languages',
   },
   {
-    id: 6,
+    id: 10,
     title: 'Research Paper - Missing Data Sequence',
     description:
       'Designed a deep imputation model using a sequence-to-sequence architecture to recover missing data sequences and implemented a sliding window algorithm for training samples.',
@@ -55,29 +87,119 @@ export const projects = [
     label: 'research.paper.missing.data',
   },
   {
-    id: 7,
+    id: 11,
     title: 'Publicis Sapients',
     description: 'Developed clustering and mathematical (Pulp) models for optimizing facility locations in warehouse management. Deployed code using Docker and increased efficiency by 2.1%, used service pods on an AWS Kubernetes cluster.',
     img: '/images/publicissapient.jpg',
     link: 'https://drive.google.com/file/d/1oBrPQhRraRcCQ4s7PY_XDKyw7hs369sf/view?usp=drive_link',
-    label: 'publicis.sapients'
+    label: 'publicis.sapients',
   },
   {
-    id: 8,
+    id: 12,
     title: 'TMLC',
     description: 'Worked on detecting YOLO models, i.e. yolov5-v7-v8 models, increased accuracy by 7.8% using FPN networks. Detected birds & calculated the interval, created dashboards on Streamlit, improved interference speed by 80fps.',
     img: '/images/themlco.jpg',
     link: 'https://drive.google.com/file/d/16fut2WEceDPIY6uvlw9Mbz1bqGljeW6E/view?usp=sharing',
-    label: 'themlco'
+    label: 'themlco',
   },
   {
-    id: 9,
+    id: 13,
     title: 'Univ.AI',
-    description: 'Worked on scraping using Octoparse and generating a phone sales dataset with a MAPE score 0.029. Implemented Statistical, LSTM, ARIMA and XGBoost model achieving an accuracy rate of 97.31%.',
+    description: 'Worked on scraping and generating a phone sales dataset with a MAPE score 0.029. Implemented LSTM, ARIMA and XGBoost model.',
     img: '/images/univai.jpg',
     link: 'https://drive.google.com/file/d/1l23SvUVxbth-zxNje3mggVyWogsh-sB9/view?usp=sharing',
-    label: 'univ.ai'
+    label: 'univ.ai',
   },
+  {
+    id: 14,
+    title: "MAMI Semantic Evaluation",
+    description: "Evaluates Multimedia Automatic Misogyny Identification for Sem Eval Tasks.",
+    img: '/images/mami.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/MAMI_Sem_Eval',
+    label: 'semantic.evaluation',
+  },
+  {
+    id: 15,
+    title: "Movie Recommender Systems",
+    description: "Predicts movie preferences based on user behavior and movie attributes.",
+    img: '/images/movie.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Movie_Recommender_Systems',
+    label: 'movie.recommendation',
+  },
+  {
+    id: 16,
+    title: "Traffic Sign Detection",
+    description: "Detects traffic signs using Convolutional Neural Network (CNN) classifier.",
+    img: '/images/trafic.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Traffic_Sign_Detection_Using_CNN_Classifier',
+    label: 'traffic.sign.detection',
+  },
+  {
+    id: 17,
+    title: "Email Spam Classifier",
+    description: "Classifies emails as spam or ham using Natural Language Processing techniques.",
+    img: '/images/mail.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/NLP_Email_Spam_Classifier',
+    label: 'email.spam.ham',
+  },
+  {
+    id: 18,
+    title: "Breast Cancer Classification",
+    description: "Uses a neural network for binary classification of breast cancer cases.",
+    img: '/images/cancer.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Breast-Cancer-Classification_using_Neural-Network-Binary_Classification',
+    label: 'breast.cancer',
+  },
+  {
+    id: 19,
+    title: "Price Prediction Regression",
+    description: "Predicts prices using a neural network regression model.",
+    img: '/images/house.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Neural_Network_Regression_Price_Prediction',
+    label: 'price.prediction'
+  },
+  {
+    id: 20,
+    title: "Support Vector Machines Implementation",
+    description: "Implements Support Vector Machines with grid search for optimal hyperparameter tuning.",
+    img: '/images/svm.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Grid-Search_and_Support-Vector-Machines_Implementation',
+    label: 'svm.grid.search'
+  },
+  {
+    id: 21,
+    title: "Decision Trees vs Random Forests Comparison",
+    description: "Compares decision trees and random forests algorithms for predictive modeling.",
+    img: '/images/tree.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Comparision_between_Decision-Trees_and_Random-Forests-',
+    label: 'comparison.dt.rf'
+  },
+  {
+    id: 22,
+    title: "K-Nearest Neighbors Parameter Tuning",
+    description: "Improves K-Nearest Neighbors algorithm performance through parameter tuning.",
+    img: '/images/knn.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Improvising_K-Nearest-Neighbors_with_Parameter_Tuning',
+    label: 'knn.parameter.tuning'
+  },
+  {
+    id: 23,
+    title: "Titanic Logistic Regression",
+    description: "Applies logistic regression to predict survival outcomes on the Titanic dataset.",
+    img: '/images/titanic.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/Titanic_Dataset_Logistic_Regression',
+    label: 'titanic.survived'
+  },
+  {
+    id: 24,
+    title: "Housing Sales Linear Regression",
+    description: "Predicts housing sales using linear regression techniques and performed EDA.",
+    img: '/images/houselr.jpg',
+    link: 'https://github.com/utkarsh-iitbhu/HousingSales_Linear_Regression',
+    label: 'housing.sales'
+  },
+  
+  
 ];
 
 
@@ -296,5 +418,20 @@ export const skills = [
     id: 24,
     name: 'Forecasting',
     img: '/images/skills/forecasting.svg',
+  },
+  {
+    id: 25,
+    name: 'Hugging-face',
+    img: '/images/skills/hugging-face.svg'
+  },
+  {
+    id: 26,
+    name: 'OpenAI',
+    img: '/images/skills/openai.svg',
+  },
+  {
+    id: 27,
+    name: 'Pinecone',
+    img: '/images/skills/pinecone.svg',
   },
 ];

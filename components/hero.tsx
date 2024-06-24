@@ -19,7 +19,7 @@ const Hero = () => {
       <div>
         <p>
           
-        I am a passionate Data Scientist and Deep Learning Engineer with a strong foundation in machine learning, artificial intelligence, and advanced modeling techniques. My experience spans across developing and deploying sophisticated AI solutions, optimizing complex systems, and implementing state-of-the-art models in domains such as object detection, time series analysis, and natural language processing. I have a deep understanding of tools and frameworks like TensorFlow, PyTorch, and OpenCV, and have worked extensively with Docker, Kubernetes, and AWS for efficient deployment. My work also includes hands-on experience with large language models and generative adversarial networks, demonstrating my versatility and commitment to pushing the boundaries of technology.
+        I am a passionate Data Scientist and Deep Learning Engineer with a strong foundation in machine learning, artificial intelligence, and advanced modeling techniques. My experience spans across developing and deploying sophisticated AI solutions, optimizing complex systems, and implementing state-of-the-art models in domains such as object detection, time series analysis, and natural language processing. I have a deep understanding of tools and frameworks like TensorFlow, PyTorch, and Langchain, and have worked with Docker, Kubernetes, and AWS for efficient deployment. My work also includes hands-on experience with large language models and generative adversarial networks, demonstrating my versatility and commitment to pushing the boundaries of technology.
         </p>
         <br />
         <p className="hidden sm:block">
